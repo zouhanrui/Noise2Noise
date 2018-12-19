@@ -1,0 +1,9 @@
+dnnlib: Running train.train() on localhost...
+
+sub_config++++++++++++++++++++++
+{'run_dir_root': 'results', 'run_desc': 'autoencoder-n2n', 'run_dir_ignore': ['__pycache__', '*.pyproj', '*.sln', '*.suo', '.cache', '.idea', '.vs', '.vscode', 'datasets', 'results'], 'run_dir_extra_files': None, 'submit_target': <SubmitTarget.LOCAL: 1>, 'num_gpus': 2, 'print_info': False, 'ask_confirmation': False, 'use_typeguard': False, 'run_id': 0, 'run_name': '00000-autoencoder-n2n', 'run_dir': 'results/00000-autoencoder-n2n', 'run_func_name': 'train.train', 'run_func_kwargs': {'iteration_count': 50000, 'eval_interval': 500, 'minibatch_size': 4, 'learning_rate': 0.0003, 'ramp_down_perc': 0.5, 'noise': {'func_name': 'train.AugmentGaussian', 'train_stddev_rng_range': (0.0, 50.0), 'validation_stddev': 25.0}, 'noise2noise': True, 'train_tfrecords': 'datasets/bsd300.tfrecords', 'validation_config': {'dataset_dir': 'datasets/Set14/image_SRF_2'}}, 'user_name': 'zouhanrui', 'task_name': 'zouhanrui-00000-autoencoder-n2n', 'host_name': 'localhost'}
++++++++++++++++++++++++++++++++
+
+
+ERROR: No files found using the following glob pattern: datasets/Set14/image_SRF_2/* 
+
